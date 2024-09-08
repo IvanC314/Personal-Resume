@@ -1,0 +1,23 @@
+.one {
+    width:100px;
+    height: 100px;
+    background-color: rgb(91, 255, 102);
+    border: solid 10px black;
+}
+
+.two {
+    width:100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: solid 20px black;
+    margin-left:120px;
+}
+
+.three {
+    width:100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 10px black;
+    margin-left:260px
+}
+

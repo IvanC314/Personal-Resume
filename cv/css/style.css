@@ -1,0 +1,219 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    border-style: solid;
+    background-color: #9de0ff;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    border-color: rgb(139, 194, 195);
+    font-family: "Roboto", system-ui;
+    padding: 10px;
+}
+
+footer {
+    border: solid rgb(139, 194, 195);
+    background-color: rgb(255, 238, 207);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.splash {
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(224, 251, 255);
+    border-color: rgb(139, 194, 195);
+    padding: 0px 0px 0px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: "Montserrat", sans-serif;
+    color: #232323;
+}
+
+img {
+    border-style: outset;
+    border-radius: 10px ;
+}
+
+.address {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tagline {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+hr {
+    border: double 20px;
+    border-radius: 10px;
+    color:rgb(139, 194, 195);
+}
+
+h2 {
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgb(21, 23, 100)
+}
+
+.education-section {
+    border: solid rgb(139, 194, 195);
+    background-color: rgb(224, 251, 255);
+    padding: 0px 0px 0px 20px;
+
+}
+
+.education {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.honors-section {
+    border: solid rgb(139, 194, 195);
+    background-color: rgb(224, 251, 255);
+    padding: 0px 0px 0px 20px;
+
+}
+
+.honors {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.skills-section {
+    border: solid rgb(139, 194, 195);
+    background-color: rgb(224, 251, 255);
+    padding: 0px 0px 0px 20px;
+}
+
+.skills {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.leadership-section {
+    border: solid rgb(139, 194, 195);
+    background-color: rgb(224, 251, 255);
+    padding: 0px 0px 0px 20px;
+}
+
+.leadership {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border: solid rgb(139, 194, 195);
+    background-color: rgb(224, 251, 255);
+    padding: 0px 20px 20px 20px;
+}
+
+.contact {
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(224, 251, 255);
+    border-color: rgb(139, 194, 195);
+    text-align: center;
+}
+
+.one-col {
+    display:grid;
+    grid-template-columns: 1fr;
+    padding:10px;
+    background-color: rgb(238, 253, 255);
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(139, 194, 195);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding:5px;
+    font-family: "Roboto", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=text] {
+    width:15%;
+}
+
+input[type=email] {
+    width:15%;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: #52bef0;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px 25px;
+    border: solid black;
+    cursor: pointer;
+}
+
+
+.three-col {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+
+.card {
+    background-color: #9de0ff;
+    padding: 5px 10px 50px 10px;
+    border:solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, .5);
+}
+
+.card-img {
+    display:flex;
+    height:60%;
+    width:90%;
+    margin:auto;
+}
+
+a {
+    color:rgb(43, 0, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+}
