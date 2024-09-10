@@ -30,18 +30,19 @@ footer {
     border-radius: 5px;
     background-color: rgb(224, 251, 255);
     border-color: rgb(139, 194, 195);
-    padding: 0px 0px 0px 20px;
+    text-align: center;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: "Montserrat", sans-serif;
     color: #232323;
 }
 
 img {
     border-style: outset;
-    border-radius: 10px ;
+    border-radius: 10px 40px;
+    width:18%;
 }
 
 .address {
@@ -66,13 +67,14 @@ h2 {
     font-family: "Moderustic", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    color:rgb(21, 23, 100)
+    color:rgb(21, 23, 100);
+    font-size: 1.8em;
 }
 
 .education-section {
     border: solid rgb(139, 194, 195);
     background-color: rgb(224, 251, 255);
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 40px;
 
 }
 
@@ -85,7 +87,7 @@ h2 {
 .honors-section {
     border: solid rgb(139, 194, 195);
     background-color: rgb(224, 251, 255);
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 40px;
 
 }
 
@@ -98,7 +100,7 @@ h2 {
 .skills-section {
     border: solid rgb(139, 194, 195);
     background-color: rgb(224, 251, 255);
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 40px;
 }
 
 .skills {
@@ -110,7 +112,7 @@ h2 {
 .leadership-section {
     border: solid rgb(139, 194, 195);
     background-color: rgb(224, 251, 255);
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 40px;
 }
 
 .leadership {
@@ -126,6 +128,7 @@ h2 {
     border: solid rgb(139, 194, 195);
     background-color: rgb(224, 251, 255);
     padding: 0px 20px 20px 20px;
+    margin:10px
 }
 
 .contact {
@@ -181,11 +184,12 @@ textarea {
 input[type=submit] {
     background-color: #52bef0;
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 26, 65);
     font-size: 20px;
     padding: 10px 25px;
     border: solid black;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 
@@ -202,11 +206,16 @@ input[type=submit] {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, .5);
 }
 
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
 .card-img {
     display:flex;
     height:60%;
     width:90%;
     margin:auto;
+    border-radius: 10px;
 }
 
 a {
@@ -216,4 +225,15 @@ a {
 
 a:hover {
     color:red;
+}
+
+.descriptions {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+h3 {
+    text-align: center;
 }
